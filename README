@@ -1,0 +1,5 @@
+Make sure you're running inside a Python virtualenv and have Mono installed, then run:
+
+  cd .../path/to/boovirtualenv
+  sh run.sh
+
