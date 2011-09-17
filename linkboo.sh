@@ -70,7 +70,7 @@ make_runner "nant" "$NANT_DIR/bin/NAnt.exe"
 make_gacutil
 
 # use our patched gacutil to add in all our required entries
-for entry in $BOO_DIR/bin/Boo.Lang.*.dll; do
+for entry in $BOO_DIR/bin/Boo.Lang*.dll; do
 	gacutil -i $entry
 done
 
